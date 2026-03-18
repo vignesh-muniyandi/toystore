@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+    background-color: rgb(253, 162, 83);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-right: -50px;
+    padding-left: 10px;
+    padding-right: -50px;
+}
+@media (max-width: 768px) {
+
+ .logo{
+    display: flex;
+    flex-direction: column;
+     margin-left: 20%;
+      max-width: 100%;
+  height: auto;
+}
+  /* CSS for small screens */
+}
+ .logo img{
+    width: 50%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.logo .social{
+    display: flex;
+    margin-left: 30px;
+     
+     
+}
+.logo .social .social-items{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 35px;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 20px;
+   
+    
+}
+.logo .social .social-items .social-link{
+    border: none;
+    border-radius:5px;
+    padding: 10px;
+     box-shadow: 1px 1px 10px rgb(239, 238, 237);
+     transition: 0.2s ease;
+}
+.logo .social .social-items .social-link:hover{
+    transform:scale(1.2);
+}
+
+.logo .social .social-items .social-link a{
+    color: white;
+}
+.footer .services h3{
+    font-size: 30px;
+    margin-left: -5px;
+}
+.footer .services .service-list{
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.footer .services .service-list .service-item{
+     cursor: pointer;
+     
+}
+.footer .services1 h3{
+    font-size: 30px;
+    margin-left: -5px;
+}
+.footer .services1 .service1-list{
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.footer .services1 .service1-list .service1-item{
+     cursor: pointer;
+     
+}
+.footer .services2 h3{
+    font-size: 30px;
+    margin-left: -5px;
+}
+.footer .services2 .service2-list{
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.footer .services2 .service2-list .service2-item{
+     cursor: pointer;
+     
+}
+.footer .conetct .con-email{
+    padding: 15px 50px;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer .conetct .btn{
+    padding: 15px 50px;
+    text-align: left;
+    border-radius: 10px;
+    border: none;
+    background-color: bisque;
+    box-shadow: 5px 5px 10px ;
+    cursor: pointer;
+ }
+.footer .conetct{
+    display: flex;
+    justify-content:left;
+    flex-direction: column;
+    gap: 30px;
+}
