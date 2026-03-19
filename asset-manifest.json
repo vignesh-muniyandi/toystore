@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/toystore/static/css/main.9076b412.css",
-    "main.js": "/toystore/static/js/main.f1039d6f.js",
+    "main.css": "/toystore/static/css/main.2011e5b2.css",
+    "main.js": "/toystore/static/js/main.a6e4965a.js",
     "static/js/453.6e60fa40.chunk.js": "/toystore/static/js/453.6e60fa40.chunk.js",
     "static/media/bg1.png": "/toystore/static/media/bg1.d2848632dfcd882b539b.png",
     "static/media/logo (2).png": "/toystore/static/media/logo (2).74f6aaedf259612fb0d1.png",
     "static/media/toy-logo.png": "/toystore/static/media/toy-logo.a1e52d18eaac53c61b79.png",
+    "static/media/img4-removebg-preview.png": "/toystore/static/media/img4-removebg-preview.6db0b3df7cd54148f393.png",
     "static/media/toy4.webp": "/toystore/static/media/toy4.0c911204905935d195fe.webp",
+    "static/media/img1.png": "/toystore/static/media/img1.7b4e366db303c4802c6f.png",
+    "static/media/img3.png": "/toystore/static/media/img3.f13ac1ac7a7ade6c6eb5.png",
+    "static/media/img2.png": "/toystore/static/media/img2.c5778f73e6612b1bee20.png",
     "static/media/toy1.jpg": "/toystore/static/media/toy1.2aa63a67d3619ae5b732.jpg",
     "index.html": "/toystore/index.html",
-    "main.9076b412.css.map": "/toystore/static/css/main.9076b412.css.map",
-    "main.f1039d6f.js.map": "/toystore/static/js/main.f1039d6f.js.map",
+    "main.2011e5b2.css.map": "/toystore/static/css/main.2011e5b2.css.map",
+    "main.a6e4965a.js.map": "/toystore/static/js/main.a6e4965a.js.map",
     "453.6e60fa40.chunk.js.map": "/toystore/static/js/453.6e60fa40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9076b412.css",
-    "static/js/main.f1039d6f.js"
+    "static/css/main.2011e5b2.css",
+    "static/js/main.a6e4965a.js"
   ]
 }
