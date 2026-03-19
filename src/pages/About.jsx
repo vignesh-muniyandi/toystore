@@ -1,10 +1,14 @@
 import React from "react";
 import "./About.css";
-import toy from "../image/bg1.png" 
+import toy from "../image/bg1.png"
+import { Helmet } from "react-helmet-async"; 
 
 function About() {
   return (
     <>
+       <Helmet>
+        <title>About</title>
+       </Helmet>
       <div className="about">
         <div className="our">
           <h1> Who We Are</h1>

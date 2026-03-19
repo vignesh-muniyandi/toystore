@@ -1,9 +1,12 @@
 import React from "react";
 import "../pages/Contact.css";
-
+import { Helmet } from "react-helmet-async";
 function Contact() {
   return (
     <>
+    <Helmet>
+      <title>Contact</title>
+    </Helmet>
       <div className="contect">
         <div className="contect-body">
           <div className="inner-body">

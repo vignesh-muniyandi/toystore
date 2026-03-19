@@ -7,23 +7,27 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Home from './pages/Home';
 import { BrowserRouter ,Routes ,Route } from "react-router-dom";
-
+import { HelmetProvider } from "react-helmet-async";
+import Service from "./pages/Service";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Product" element={<Product />} />
-        </Routes>
-        <Footer />
-      </BrowserRouter>
-      {/* <Navbar />
+      <HelmetProvider>
+        <BrowserRouter>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Product" element={<Product />} />
+            <Route path="/Service" element={<Service />} />
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+        {/* <Navbar />
          <About/>
       <Footer /> */}
+      </HelmetProvider>
     </div>
   );
 }

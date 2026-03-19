@@ -27,7 +27,7 @@
   box-shadow: 5px 5px 10px black;
   justify-content: center;
   align-items: center;
-  color: #fba40f;
+  color: #999388;
 }
 .about .our1 {
   display: flex;
@@ -39,7 +39,7 @@
   box-shadow: 5px 5px 10px black;
   justify-content: center;
   align-items: center;
-  color: #fba40f;
+  color: #999388;
 }
 
 .about .our2 {
@@ -51,7 +51,7 @@
   margin: 5%;
   box-shadow: 5px 5px 10px black;
   border-radius: 10px;
-  color: #fba40f;
+  color: #999388;
 }
 .about .our2 img {
   width: 100%;

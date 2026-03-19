@@ -1,3 +1,8 @@
+import img1 from '../image/img1.png'
+import img2 from "../image/img2.png";
+import img3 from "../image/img3.png";
+import img4 from "../image/img4-removebg-preview.png";
+
 const products = [
   {
     id: 1,
@@ -8,19 +13,19 @@ const products = [
   {
     id: 2,
     title: "Toy 2",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSas6ruJagyJ_u5Y5zbxoSJ_yxo_s_Qa0kF6g&s",
+    img: img1,
     des: "A soft and cuddly classic teddy bear",
   },
   {
     id: 3,
     title: "Toy 3",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY8zk21LOmqokFn2ptsXglj5vyH25Qwi3Ryw&s",
+    img: img2 ,
     des: "A soft and cuddly classic teddy bear",
   },
   {
     id: 4,
     title: "Toy 4",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj7Xb0Wg5UFp9hP2ntu5XPdux5pxpmila5lw&s",
+    img: img3,
     des: "A soft and cuddly classic teddy bear",
   },
   {
@@ -32,7 +37,7 @@ const products = [
   {
     id: 6,
     title: "Toy 6",
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcQ2neLaITL7dA_2JohM8k4Mq-rk0raLE7SQ&s",
+    img:  img4,
     des: "A soft and cuddly classic teddy bear",
   },
 ];

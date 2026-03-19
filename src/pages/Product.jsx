@@ -6,10 +6,15 @@ import toy from "../image/toy1.jpg"
 import toy1 from "../image/toy4.webp";
 import toy2 from "../image/toy2.jpg";
 import productdata from "../constant/productdata";
+import { Helmet } from "react-helmet-async";
 const Product = () => {
   
 
   return (
+    <>
+    <Helmet>
+      <title>Products</title>
+    </Helmet>
     <div className="body">
       <div className="product-page">
         <h1>Product Details</h1>
@@ -78,6 +83,7 @@ const Product = () => {
         </div> */}
       </div>
     </div>
+    </>
   );
 };
 
