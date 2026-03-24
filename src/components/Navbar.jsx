@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import mylogo from "../image/toy-logo.png";
 import { Link } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -32,6 +33,8 @@ function Navbar() {
             </li>
           </ul>
         </div>
+
+        <button className="btn1"> <Link className="Link" to="/Cartpage">CartPage</Link></button>
       </div>
     </>
   );

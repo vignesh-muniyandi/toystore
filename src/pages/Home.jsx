@@ -3,7 +3,18 @@ import './Home.css';
 import IMG from "../image/logo (2).png"
 import products from '../constant/homepageproduct';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
+import { useSelector ,useDispatch } from 'react-redux';
+import { addtoCart } from '../redux/Cartslice';
+ 
 function Home() {
+
+  const cartproducts =useSelector((state) => state.cart.cartItems);
+  const dispatch=useDispatch();
+
+  const addCart =(item) => {
+    dispatch(addtoCart(item))
+  }
   
   return (
     <>
@@ -44,7 +55,7 @@ function Home() {
               <h1 className="toy-name">{item.title}</h1>
               <p className="des">{item.des}</p>
 
-              <button className="btn1"> cart</button>
+              <button onClick={() =>{addCart(item)}} className="btn1"> cart </button>
             </div>
           </div>
         ))}

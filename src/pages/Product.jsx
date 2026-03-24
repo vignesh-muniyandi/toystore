@@ -7,7 +7,22 @@ import toy1 from "../image/toy4.webp";
 import toy2 from "../image/toy2.jpg";
 import productdata from "../constant/productdata";
 import { Helmet } from "react-helmet-async";
+import { useDispatch ,useSelector } from "react-redux";
+import { addtoCart ,removeFromCart } from "../redux/Cartslice";
+
+
+
 const Product = () => {
+
+  const cartProducts =useSelector((state) => state.cart.cartItems)
+   const dispatch =useDispatch();
+
+      const addCart =(item ) => {
+        dispatch(addtoCart(item))
+      }  
+      const removeCart=(item )=>{
+        dispatch(removeFromCart(item))
+      }
   
 
   return (
@@ -30,12 +45,12 @@ const Product = () => {
               </p>
               <p className="product-price">{item.price}</p>
               <div className="product-buttons">
-                <button className="add-to-cart">
+                <button onClick={() =>{addCart(item)}} className="add-to-cart">
                   <FaShoppingCart /> Add to Cart
                 </button>
-                <button className="buy-now">
+                {/* <button className="buy-now">
                   <FaCreditCard /> Buy Now
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

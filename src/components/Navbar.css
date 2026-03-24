@@ -70,4 +70,21 @@
     font-weight: 600;
     background: linear-gradient(100deg, #ff920d, #ffffff);
 }
+.navbar  .btn1{
+    padding:10px 20px;
+    text-decoration: none;
+    margin-left: 30px;
+    border-radius:   0px 12px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    background: linear-gradient(100deg, #f1ff86, #ffffff);
+}
+
+.navbar .btn1 .Link{
+    text-decoration: none;
+    color: #f37c05;
+}
+ 
+
  
