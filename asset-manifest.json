@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/toystore/static/css/main.46de29ad.css",
-    "main.js": "/toystore/static/js/main.a55bc543.js",
+    "main.js": "/toystore/static/js/main.aee1e136.js",
     "static/js/453.6e60fa40.chunk.js": "/toystore/static/js/453.6e60fa40.chunk.js",
     "static/media/bg1.png": "/toystore/static/media/bg1.d2848632dfcd882b539b.png",
     "static/media/logo (2).png": "/toystore/static/media/logo (2).74f6aaedf259612fb0d1.png",
@@ -14,11 +14,11 @@
     "static/media/toy1.jpg": "/toystore/static/media/toy1.2aa63a67d3619ae5b732.jpg",
     "index.html": "/toystore/index.html",
     "main.46de29ad.css.map": "/toystore/static/css/main.46de29ad.css.map",
-    "main.a55bc543.js.map": "/toystore/static/js/main.a55bc543.js.map",
+    "main.aee1e136.js.map": "/toystore/static/js/main.aee1e136.js.map",
     "453.6e60fa40.chunk.js.map": "/toystore/static/js/453.6e60fa40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.46de29ad.css",
-    "static/js/main.a55bc543.js"
+    "static/js/main.aee1e136.js"
   ]
 }
