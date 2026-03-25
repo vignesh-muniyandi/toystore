@@ -34,7 +34,18 @@ function Navbar() {
           </ul>
         </div>
 
-        <button className="btn1"> <Link className="Link" to="/Cartpage">CartPage</Link></button>
+        <button className="btn1">
+          {" "}
+          <Link className="Link" to="/Cartpage">
+            CartPage
+          </Link>
+        </button>
+
+        <button className="btn1">
+          <Link to="/LikeProduct" style={{ textDecoration: "none" }}>
+            Liked products
+          </Link>
+        </button>
       </div>
     </>
   );

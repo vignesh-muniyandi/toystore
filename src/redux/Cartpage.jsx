@@ -5,12 +5,14 @@ import { updateQuantity, removeFromCart ,calculateTotal } from './Cartslice';
 
 const Cartpage = () => {
 
-    const {cartItems ,totalAmount} =useSelector((state) => state.cart);
+    const {cartItems ,totalAmount } =useSelector((state) => state.cart);
+
     const dispatch =useDispatch();
 
     useEffect (() =>{
         dispatch(calculateTotal());
     },[cartItems,dispatch]);
+
   return (
     <div style={{ padding: "20px" }}>
       <h2>🛒 Your Cart</h2>

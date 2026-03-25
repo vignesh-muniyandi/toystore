@@ -10,7 +10,9 @@ import Cartpage from "./redux/Cartpage";
 import { BrowserRouter ,Routes ,Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import Service from "./pages/Service";
-function App() {
+import LikeProductpage from './redux/LikeProductpage'
+
+function App() { 
   return (
     <div className="App">
       <HelmetProvider>
@@ -23,6 +25,7 @@ function App() {
             <Route path="/Product" element={<Product />} />
             <Route path="/Service" element={<Service />} />
             <Route path="/Cartpage" element={< Cartpage/>}/>
+            <Route path="/LikeProduct" element={<LikeProductpage/>}/>
           </Routes>
           <Footer />
         </BrowserRouter>
